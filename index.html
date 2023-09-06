@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+   <!-------------------------------------------------
+       Title
+    -------------------------------------------------->
+   <title>Interactive Images Slider Using Css</title>
+
+
+   <!-------------------------------------------------
+       Link Favicon
+    -------------------------------------------------->
+   <link rel="icon" type="image/png" href="Assets/Images/i-1.jpg">
+
+
+   <!---------------------------------------------------
+       Link External Custom Style Sheets
+    ----------------------------------------------------->
+   <link rel="stylesheet" href="Css/style.css">
+   <link rel="stylesheet" href="Css/mediaQueries.css">
+
+</head>
+
+<body>
+
+
+   <!---------------------------------------------------
+       Wrapper Start
+    ----------------------------------------------------->
+   <div class="wrapper">
+
+      <!---------------------------------------------------
+        Outer Container Start
+      ----------------------------------------------------->
+
+      <div class=" outer-container">
+
+         <!---------------------------------------------------
+            Spans that Targeted Using Anchor to Perform Some Activity
+         ----------------------------------------------------->
+         <span id="target-1"></span>
+         <span id="target-2"></span>
+         <span id="target-3"></span>
+         <span id="target-4"></span>
+         <span id="target-5"></span>
+         <span id="target-6"></span>
+         <span id="target-7"></span>
+         <span id="target-8"></span>
+         <span id="target-9"></span>
+         <span id="target-10"></span>
+
+
+         <!---------------------------------------------------
+            Inner Container Start
+          ----------------------------------------------------->
+         <div class="inner-container">
+
+            <div class="img-box img-box-1">
+               <img src="Assets/Images/i-1.jpg" alt="bird">
+               <a href="#target-1"></a>
+            </div>
+
+            <div class="img-box img-box-2">
+               <img src="Assets/Images/i-2.jpg" alt="bird">
+               <a href="#target-2"></a>
+            </div>
+
+            <div class="img-box img-box-3">
+               <img src="Assets/Images/i-3.jpg" alt="bird">
+               <a href="#target-3"></a>
+            </div>
+
+            <div class="img-box img-box-4">
+               <img src="Assets/Images/i-4.jpg" target="target-4" alt="bird">
+               <a href="#target-4"></a>
+            </div>
+
+            <div class="img-box img-box-5">
+               <img src="Assets/Images/i-5.jpg" alt="bird">
+               <a href="#target-5"></a>
+            </div>
+
+            <div class="img-box img-box-6">
+               <img src="Assets/Images/i-6.jpg" alt="bird">
+               <a href="#target-6"></a>
+            </div>
+
+            <div class="img-box img-box-7">
+               <img src="Assets/Images/i-7.jpg" alt="bird">
+               <a href="#target-7"></a>
+            </div>
+
+            <div class="img-box img-box-8">
+               <img src="Assets/Images/i-8.jpg" alt="bird">
+               <a href="#target-8"></a>
+            </div>
+
+            <div class="img-box img-box-9">
+               <img src="Assets/Images/i-9.jpg" alt="bird">
+               <a href="#target-9"></a>
+            </div>
+
+            <div class="img-box img-box-10">
+               <img src="Assets/Images/i-10.jpg" alt="bird">
+               <a href="#target-10"></a>
+            </div>
+
+         </div>
+         <!---------------------------------------------------
+             Inner Container End
+         ----------------------------------------------------->
+
+      </div>
+
+      <!---------------------------------------------------
+        Outer Container End
+      ----------------------------------------------------->
+   </div>
+
+   <!---------------------------------------------------
+       Wrapper End
+   ----------------------------------------------------->
+
+
+
+   <!---------------------------------------------------
+       Javascript to Display Appropriate Image Initially
+   ----------------------------------------------------->
+   <script>
+      document.location = "index.html#target-5";
+   </script>
+
+
+</body>
+
+</html>
